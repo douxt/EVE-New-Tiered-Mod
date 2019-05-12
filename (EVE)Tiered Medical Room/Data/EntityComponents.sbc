@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--
+  Usage:
+  
+  All entity component definitions (not components used in assemblers in game) have base class MyComponentDefinitionBase.
+  
+  You can define default definition for all components of same type, if you ommit the SubtypeId:
+  
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_CraftingComponentBlockDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_CraftingComponentBlock</TypeId>        
+      </Id>      
+    </EntityComponent>
+  </EntityComponents>
+  
+  You need to define type of the definition for deserializer - xsi:type="MyObjectBuilder_CraftingComponentBlockDefinition"
+  
+  When container on init of the components will look for component definition, it will first look for the same SubtypeId,
+  when it's not found, it will look for the definition with empty SubtypeId, if it doesn't find either, it will not call 
+  Init(MyComponentDefinitionBase definition) on component. If definition is found, it will pass the definition and call that method.
+  
+  See EntityContainers.sbc for defining default components in containers.
+  
+  -->
+  <EntityComponents>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>AstronautT1</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>SpaceCharacterHealthT1</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>AstronautT2</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>SpaceCharacterHealthT2</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+	
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>AstronautT3</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>SpaceCharacterHealthT3</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>AstronautT4</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>SpaceCharacterHealthT4</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+	
+  </EntityComponents>
+
+</Definitions>

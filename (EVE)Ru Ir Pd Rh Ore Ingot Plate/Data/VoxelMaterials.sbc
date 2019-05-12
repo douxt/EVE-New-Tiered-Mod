@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<VoxelMaterials>
+
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition"><!-- Aluminium-->	
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Ruthenium_01</SubtypeId>
+			</Id>
+		<SpawnsInAsteroids>false</SpawnsInAsteroids>
+		<MaterialTypeName>Rock</MaterialTypeName>
+		<MinedOre>Ruthenium</MinedOre>
+		<MinedOreRatio>1.6</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<IsIndestructible>false</IsIndestructible>
+		<DamageRatio>0.4</DamageRatio>
+		<ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+		<DiffuseXZ>Textures\Voxels\Platinum_01_ForAxisXZ_de.dds</DiffuseXZ>
+		<NormalXZ>Textures\Voxels\Platinum_01_ForAxisXZ_ns.dds</NormalXZ>
+		<SpecularPower>9</SpecularPower>
+		<SpecularShininess>1.435</SpecularShininess>
+      
+		<ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY> 
+		<NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+			
+		</VoxelMaterial>
+	
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition"><!-- Aluminium-->	
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Iridium_01</SubtypeId>
+			</Id>
+		<SpawnsInAsteroids>false</SpawnsInAsteroids>
+		<MaterialTypeName>Rock</MaterialTypeName>
+		<MinedOre>Iridium</MinedOre>
+		<MinedOreRatio>1.6</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<IsIndestructible>false</IsIndestructible>
+		<DamageRatio>0.4</DamageRatio>
+		<ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+		<DiffuseXZ>Textures\Voxels\Platinum_01_ForAxisXZ_de.dds</DiffuseXZ>
+		<NormalXZ>Textures\Voxels\Platinum_01_ForAxisXZ_ns.dds</NormalXZ>
+		<SpecularPower>9</SpecularPower>
+		<SpecularShininess>1.435</SpecularShininess>
+      
+		<ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY> 
+		<NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+			
+		</VoxelMaterial>
+	
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition"><!-- Aluminium-->	
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Palladium_01</SubtypeId>
+			</Id>
+		<SpawnsInAsteroids>false</SpawnsInAsteroids>
+		<MaterialTypeName>Rock</MaterialTypeName>
+		<MinedOre>Palladium</MinedOre>
+		<MinedOreRatio>1.6</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<IsIndestructible>false</IsIndestructible>
+		<DamageRatio>0.4</DamageRatio>
+		<ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+		<DiffuseXZ>Textures\Voxels\Platinum_01_ForAxisXZ_de.dds</DiffuseXZ>
+		<NormalXZ>Textures\Voxels\Platinum_01_ForAxisXZ_ns.dds</NormalXZ>
+		<SpecularPower>9</SpecularPower>
+		<SpecularShininess>1.435</SpecularShininess>
+      
+		<ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY> 
+		<NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+			
+		</VoxelMaterial>	
+
+
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition"><!-- Aluminium-->	
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Rhodium_01</SubtypeId>
+			</Id>
+		<SpawnsInAsteroids>false</SpawnsInAsteroids>
+		<MaterialTypeName>Rock</MaterialTypeName>
+		<MinedOre>Rhodium</MinedOre>
+		<MinedOreRatio>1.6</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<IsIndestructible>false</IsIndestructible>
+		<DamageRatio>0.4</DamageRatio>
+		<ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+		<DiffuseXZ>Textures\Voxels\Platinum_01_ForAxisXZ_de.dds</DiffuseXZ>
+		<NormalXZ>Textures\Voxels\Platinum_01_ForAxisXZ_ns.dds</NormalXZ>
+		<SpecularPower>9</SpecularPower>
+		<SpecularShininess>1.435</SpecularShininess>
+      
+		<ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY> 
+		<NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+			
+		</VoxelMaterial>
+	
+	</VoxelMaterials>
+</Definitions>

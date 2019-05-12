@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+	
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RutheniumAlloyPlate</SubtypeId>
+			</Id>
+			<DisplayName>钌合金板-lhjb-</DisplayName>
+			<Icon>Textures\GUI\Icons\component\ruthenium_alloy_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Gold" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Ruthenium" />		
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="RutheniumAlloyPlate" />
+			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>IridiumAlloyPlate</SubtypeId>
+			</Id>
+			<DisplayName>铱合金板-yhjb-</DisplayName>
+			<Icon>Textures\GUI\Icons\component\iridium_alloy_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Gold" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Ruthenium" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Iridium" />					
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="IridiumAlloyPlate" />
+			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>PalladiumAlloyPlate</SubtypeId>
+			</Id>
+			<DisplayName>钯合金板-bhjb-</DisplayName>
+			<Icon>Textures\GUI\Icons\component\palladium_alloy_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Gold" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Ruthenium" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Iridium" />		
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Palladium" />	
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="PalladiumAlloyPlate" />
+			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+		</Blueprint>			
+
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RhodiumAlloyPlate</SubtypeId>
+			</Id>
+			<DisplayName>铑合金板-lhjb-</DisplayName>
+			<Icon>Textures\GUI\Icons\component\rhodium_alloy_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Gold" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Ruthenium" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Iridium" />		
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Palladium" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Rhodium" />				
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="RhodiumAlloyPlate" />
+			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+		</Blueprint>	
+
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RutheniumOreToIngot</SubtypeId>
+			</Id>
+			<DisplayName>钌锭-RuI-</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ruthenium_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Ruthenium" />
+			</Prerequisites>
+			<Result Amount="0.005" TypeId="Ingot" SubtypeId="Ruthenium" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+		</Blueprint>
+		
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>IridiumOreToIngot</SubtypeId>
+			</Id>
+			<DisplayName>铱锭-IrI-</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\iridium_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Iridium" />
+			</Prerequisites>
+			<Result Amount="0.004" TypeId="Ingot" SubtypeId="Iridium" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+		</Blueprint>
+	
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>PalladiumOreToIngot</SubtypeId>
+			</Id>
+			<DisplayName>钯锭-PdI-</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\palladium_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Palladium" />
+			</Prerequisites>
+			<Result Amount="0.003" TypeId="Ingot" SubtypeId="Palladium" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RhodiumOreToIngot</SubtypeId>
+			</Id>
+			<DisplayName>铑锭-RhI-</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\rhodium_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Rhodium" />
+			</Prerequisites>
+			<Result Amount="0.002" TypeId="Ingot" SubtypeId="Rhodium" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+		</Blueprint>
+		
+	</Blueprints>
+</Definitions>

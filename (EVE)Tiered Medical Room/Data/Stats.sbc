@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>SpaceCharacterHealthT1</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>200</DefaultValue>
+      <MaxValue>200</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>SpaceCharacterHealthT2</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>400</DefaultValue>
+      <MaxValue>400</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>SpaceCharacterHealthT3</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>800</DefaultValue>
+      <MaxValue>800</MaxValue>
+    </Stat>
+	
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>SpaceCharacterHealthT4</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>1600</DefaultValue>
+      <MaxValue>1600</MaxValue>
+    </Stat>
+	
+</Definitions>

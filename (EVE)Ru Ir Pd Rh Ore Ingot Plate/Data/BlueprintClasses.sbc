@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>    
+	
+		<Entry Class="Ingots" BlueprintSubtypeId="RutheniumOreToIngot" />
+		<Entry Class="CommonMetals" BlueprintSubtypeId="RutheniumOreToIngot" />	
+	
+		<Entry Class="Ingots" BlueprintSubtypeId="IridiumOreToIngot" />
+		<Entry Class="CommonMetals" BlueprintSubtypeId="IridiumOreToIngot" />
+		<Entry Class="Ingots" BlueprintSubtypeId="PalladiumOreToIngot" />
+		<Entry Class="CommonMetals" BlueprintSubtypeId="PalladiumOreToIngot" />
+		<Entry Class="Ingots" BlueprintSubtypeId="RhodiumOreToIngot" />
+		<Entry Class="CommonMetals" BlueprintSubtypeId="RhodiumOreToIngot" />
+		
+		<Entry Class="Components" BlueprintSubtypeId="RutheniumAlloyPlate" />
+		<Entry Class="Components" BlueprintSubtypeId="IridiumAlloyPlate" />
+		<Entry Class="Components" BlueprintSubtypeId="PalladiumAlloyPlate" />
+		<Entry Class="Components" BlueprintSubtypeId="RhodiumAlloyPlate" />
+		
+		<Entry Class="BaseComponents" BlueprintSubtypeId="RutheniumAlloyPlate" />
+		<Entry Class="BaseComponents" BlueprintSubtypeId="IridiumAlloyPlate" />
+		<Entry Class="BaseComponents" BlueprintSubtypeId="PalladiumAlloyPlate" />
+		<Entry Class="BaseComponents" BlueprintSubtypeId="RhodiumAlloyPlate" />		
+	</BlueprintClassEntries>
+</Definitions>
