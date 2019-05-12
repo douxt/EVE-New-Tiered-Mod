@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+      <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>LargeEffectivenessModuleT1</SubtypeId>
+      </Id>
+      <DisplayName>精炼增效模块T1-jlzxmkt1-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectivenessT1.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
+      <Components>
+	  	<Component Subtype="RutheniumAlloyPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="SmallTube" Count="15" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+        <MountPoint Side="Left" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+        <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+        <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>EffectivenessModuleT1</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Effectiveness</UpgradeType>
+          <!--<Modifier>1.0905077</Modifier>-->
+		  <Modifier>1.1472027</Modifier>
+          <ModifierType>Multiplicative</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <PrimarySound>BlockModuleEffectiveness</PrimarySound>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+  
+
+      <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>LargeEffectivenessModuleT2</SubtypeId>
+      </Id>
+      <DisplayName>精炼增效模块T2-jlzxmkt2-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectivenessT2.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
+      <Components>
+	  		<Component Subtype="IridiumAlloyPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="SmallTube" Count="15" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+        <MountPoint Side="Left" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+        <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+        <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>EffectivenessModuleT2</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Effectiveness</UpgradeType>
+          <!--<Modifier>1.0905077</Modifier>-->
+		  <Modifier>1.2228445</Modifier>
+          <ModifierType>Multiplicative</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <PrimarySound>BlockModuleEffectiveness</PrimarySound>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>LargeEffectivenessModuleT3</SubtypeId>
+      </Id>
+      <DisplayName>精炼增效模块T3-jlzxmkt3-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectivenessT3.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
+      <Components>
+	          <Component Subtype="PalladiumAlloyPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="SmallTube" Count="15" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+        <MountPoint Side="Left" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+        <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+        <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>EffectivenessModuleT3</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Effectiveness</UpgradeType>
+          <!--<Modifier>1.0905077</Modifier>-->
+		  <Modifier>1.3160740</Modifier>
+          <ModifierType>Multiplicative</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <PrimarySound>BlockModuleEffectiveness</PrimarySound>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+
+
+      <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>LargeEffectivenessModuleT4</SubtypeId>
+      </Id>
+      <DisplayName>精炼增效模块T4-jlzxmkt4-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectivenessT4.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
+      <Components>
+	  	    <Component Subtype="RhodiumAlloyPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="SmallTube" Count="15" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+        <MountPoint Side="Left" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+        <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+        <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>EffectivenessModuleT4</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Effectiveness</UpgradeType>
+          <!--<Modifier>1.0905077</Modifier>-->
+		  <Modifier>1.4249713</Modifier>
+          <ModifierType>Multiplicative</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <PrimarySound>BlockModuleEffectiveness</PrimarySound>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>	
+  
+  
+  </CubeBlocks>
+</Definitions>
