@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelT1" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelT3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelT4" />
+	
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelT1" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelT2" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelT3" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelT4" />	
+	</BlueprintClassEntries>
+</Definitions>

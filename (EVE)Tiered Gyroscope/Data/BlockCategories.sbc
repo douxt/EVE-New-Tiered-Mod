@@ -1,0 +1,35 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+	  <ItemIds>
+	          <string>Gyro/LargeBlockGyroT1</string>
+			  <string>Gyro/LargeBlockGyroT2</string>
+			  <string>Gyro/LargeBlockGyroT3</string>
+			  <string>Gyro/LargeBlockGyroT4</string>
+      </ItemIds>
+    </Category>
+	
+	
+	  <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+	        <string>Gyro/SmallBlockGyroT1</string>
+			<string>Gyro/SmallBlockGyroT2</string>
+			<string>Gyro/SmallBlockGyroT3</string>
+			<string>Gyro/SmallBlockGyroT4</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

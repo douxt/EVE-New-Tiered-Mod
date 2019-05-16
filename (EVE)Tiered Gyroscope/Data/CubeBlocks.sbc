@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks> 
+
+ <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>LargeBlockGyroT1</SubtypeId>
+      </Id>
+      <DisplayName>陀螺仪T1-tlyt1-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyroT1.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\gyroscope.mwm</Model>
+      <Components>
+		<Component Subtype="RutheniumAlloyPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="500" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GyroscopeT1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <PrimarySound>ArcBlockGyroscope</PrimarySound>
+      
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>6.72E+07</ForceMagnitude>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>SmallBlockGyroT1</SubtypeId>
+      </Id>
+      <DisplayName>陀螺仪T1-tlyt1-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyroT1.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\gyroscope.mwm</Model>
+      <Components>
+		<Component Subtype="RutheniumAlloyPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GyroscopeT1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <PrimarySound>ArcBlockGyroscope</PrimarySound>
+
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>896000</ForceMagnitude>
+      <RequiredPowerInput>0.0000012</RequiredPowerInput>
+      
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+	
+
+ <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>LargeBlockGyroT2</SubtypeId>
+      </Id>
+      <DisplayName>陀螺仪T2-tlyt2-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyroT2.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\gyroscope.mwm</Model>
+      <Components>
+		<Component Subtype="IridiumAlloyPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="500" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GyroscopeT2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <PrimarySound>ArcBlockGyroscope</PrimarySound>
+      
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>13.44E+07</ForceMagnitude>
+      <RequiredPowerInput>0.00012</RequiredPowerInput>
+      
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>SmallBlockGyroT2</SubtypeId>
+      </Id>
+      <DisplayName>陀螺仪T2-tlyt2-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyroT2.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\gyroscope.mwm</Model>
+      <Components>
+		<Component Subtype="IridiumAlloyPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GyroscopeT2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <PrimarySound>ArcBlockGyroscope</PrimarySound>
+
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>1792000</ForceMagnitude>
+      <RequiredPowerInput>0.0000024</RequiredPowerInput>
+      
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+	
+	
+ <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>LargeBlockGyroT3</SubtypeId>
+      </Id>
+      <DisplayName>陀螺仪T3-tlyt3-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyroT3.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\gyroscope.mwm</Model>
+      <Components>
+		<Component Subtype="PalladiumAlloyPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="500" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GyroscopeT3</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <PrimarySound>ArcBlockGyroscope</PrimarySound>
+      
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>26.88E+07</ForceMagnitude>
+      <RequiredPowerInput>0.00024</RequiredPowerInput>
+      
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>SmallBlockGyroT3</SubtypeId>
+      </Id>
+      <DisplayName>陀螺仪T3-tlyt3-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyroT3.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\gyroscope.mwm</Model>
+      <Components>
+		<Component Subtype="PalladiumAlloyPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GyroscopeT3</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <PrimarySound>ArcBlockGyroscope</PrimarySound>
+
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>3584000</ForceMagnitude>
+      <RequiredPowerInput>0.0000048</RequiredPowerInput>
+      
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+	
+	
+ <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>LargeBlockGyroT4</SubtypeId>
+      </Id>
+      <DisplayName>陀螺仪T4-tlyt4-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyroT4.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\gyroscope.mwm</Model>
+      <Components>
+		<Component Subtype="RhodiumAlloyPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="500" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GyroscopeT4</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <PrimarySound>ArcBlockGyroscope</PrimarySound>
+      
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>53.76E+07</ForceMagnitude>
+      <RequiredPowerInput>0.00048</RequiredPowerInput>
+      
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>SmallBlockGyroT4</SubtypeId>
+      </Id>
+      <DisplayName>陀螺仪T4-tlyt4-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyroT4.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\gyroscope.mwm</Model>
+      <Components>
+		<Component Subtype="RhodiumAlloyPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GyroscopeT4</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <PrimarySound>ArcBlockGyroscope</PrimarySound>
+
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>7168000</ForceMagnitude>
+      <RequiredPowerInput>0.0000096</RequiredPowerInput>
+      
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+	
+  </CubeBlocks>
+</Definitions>
