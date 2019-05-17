@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks> 
+
+
+    <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
+      <Id>
+        <TypeId>OxygenFarm</TypeId>
+        <SubtypeId>LargeBlockOxygenFarmT1</SubtypeId>
+      </Id>
+      <DisplayName>氧气农场T1-yqnct1-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponicsT1.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <Center x="0" y="0" z="0" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SolarHydroponics.mwm</Model>
+      <Components>
+		<Component Subtype="RutheniumAlloyPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="40" />
+        <Component Subtype="BulletproofGlass" Count="60" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.25" EndX="3" EndY="0.75" />
+        <MountPoint Side="Top" StartX="0" StartY="0.25" EndX="3" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0" StartY="0.375" EndX="1" EndY="0.625" />
+        <MountPoint Side="Front" StartX="2" StartY="0.375" EndX="3" EndY="0.625" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarHydroponicsConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarHydroponicsConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarHydroponicsConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OxygenFarmT1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>0</PanelOffset>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <ProducedGas>
+        <Id>
+          <TypeId>GasProperties</TypeId>
+          <SubtypeId>Oxygen</SubtypeId>
+        </Id>
+        <MaxOutputPerSecond>0.06</MaxOutputPerSecond>
+      </ProducedGas>
+      <OperationalPowerConsumption>0.002</OperationalPowerConsumption>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
+      <Id>
+        <TypeId>OxygenFarm</TypeId>
+        <SubtypeId>LargeBlockOxygenFarmT2</SubtypeId>
+      </Id>
+      <DisplayName>氧气农场T2-yqnct2-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponicsT2.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <Center x="0" y="0" z="0" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SolarHydroponics.mwm</Model>
+      <Components>
+		<Component Subtype="IridiumAlloyPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="40" />
+        <Component Subtype="BulletproofGlass" Count="60" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.25" EndX="3" EndY="0.75" />
+        <MountPoint Side="Top" StartX="0" StartY="0.25" EndX="3" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0" StartY="0.375" EndX="1" EndY="0.625" />
+        <MountPoint Side="Front" StartX="2" StartY="0.375" EndX="3" EndY="0.625" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarHydroponicsConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarHydroponicsConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarHydroponicsConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OxygenFarmT2</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>0</PanelOffset>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <ProducedGas>
+        <Id>
+          <TypeId>GasProperties</TypeId>
+          <SubtypeId>Oxygen</SubtypeId>
+        </Id>
+        <MaxOutputPerSecond>0.12</MaxOutputPerSecond>
+      </ProducedGas>
+      <OperationalPowerConsumption>0.004</OperationalPowerConsumption>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
+      <Id>
+        <TypeId>OxygenFarm</TypeId>
+        <SubtypeId>LargeBlockOxygenFarmT3</SubtypeId>
+      </Id>
+      <DisplayName>氧气农场T3-yqnct3-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponicsT3.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <Center x="0" y="0" z="0" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SolarHydroponics.mwm</Model>
+      <Components>
+		<Component Subtype="PalladiumAlloyPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="40" />
+        <Component Subtype="BulletproofGlass" Count="60" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.25" EndX="3" EndY="0.75" />
+        <MountPoint Side="Top" StartX="0" StartY="0.25" EndX="3" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0" StartY="0.375" EndX="1" EndY="0.625" />
+        <MountPoint Side="Front" StartX="2" StartY="0.375" EndX="3" EndY="0.625" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarHydroponicsConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarHydroponicsConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarHydroponicsConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OxygenFarmT3</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>0</PanelOffset>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <ProducedGas>
+        <Id>
+          <TypeId>GasProperties</TypeId>
+          <SubtypeId>Oxygen</SubtypeId>
+        </Id>
+        <MaxOutputPerSecond>0.24</MaxOutputPerSecond>
+      </ProducedGas>
+      <OperationalPowerConsumption>0.008</OperationalPowerConsumption>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
+      <Id>
+        <TypeId>OxygenFarm</TypeId>
+        <SubtypeId>LargeBlockOxygenFarmT4</SubtypeId>
+      </Id>
+      <DisplayName>氧气农场T4-yqnct4-</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponicsT4.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <Center x="0" y="0" z="0" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SolarHydroponics.mwm</Model>
+      <Components>
+		<Component Subtype="RhodiumAlloyPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="40" />
+        <Component Subtype="BulletproofGlass" Count="60" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.25" EndX="3" EndY="0.75" />
+        <MountPoint Side="Top" StartX="0" StartY="0.25" EndX="3" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0" StartY="0.375" EndX="1" EndY="0.625" />
+        <MountPoint Side="Front" StartX="2" StartY="0.375" EndX="3" EndY="0.625" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarHydroponicsConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarHydroponicsConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarHydroponicsConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OxygenFarmT4</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>0</PanelOffset>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <ProducedGas>
+        <Id>
+          <TypeId>GasProperties</TypeId>
+          <SubtypeId>Oxygen</SubtypeId>
+        </Id>
+        <MaxOutputPerSecond>0.48</MaxOutputPerSecond>
+      </ProducedGas>
+      <OperationalPowerConsumption>0.016</OperationalPowerConsumption>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+    </Definition>
+
+	
+  </CubeBlocks>
+</Definitions>

@@ -9,10 +9,10 @@
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
       <Name>LargeBlocks</Name>
       <ItemIds>
-        <string>SolarPanel/LargeBlockSolarPanelT1</string>
-        <string>SolarPanel/LargeBlockSolarPanelT2</string>
-        <string>SolarPanel/LargeBlockSolarPanelT3</string>
-        <string>SolarPanel/LargeBlockSolarPanelT4</string>		
+			<string>HydrogenEngine/LargeHydrogenEngineT1</string>
+			<string>HydrogenEngine/LargeHydrogenEngineT2</string>
+			<string>HydrogenEngine/LargeHydrogenEngineT3</string>
+			<string>HydrogenEngine/LargeHydrogenEngineT4</string>			
       </ItemIds>
     </Category>	  
 
@@ -24,13 +24,13 @@
       <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
       <Name>SmallBlocks</Name>
       <ItemIds>	  
-        <string>SolarPanel/SmallBlockSolarPanelT1</string>
-		<string>SolarPanel/SmallBlockSolarPanelT2</string>
-		<string>SolarPanel/SmallBlockSolarPanelT3</string>
-		<string>SolarPanel/SmallBlockSolarPanelT4</string>
-	</ItemIds>
+			<string>HydrogenEngine/SmallHydrogenEngineT1</string>
+			<string>HydrogenEngine/SmallHydrogenEngineT2</string>
+			<string>HydrogenEngine/SmallHydrogenEngineT3</string>
+			<string>HydrogenEngine/SmallHydrogenEngineT4</string>
+		</ItemIds>
     </Category>
-
+	
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -39,16 +39,17 @@
       <DisplayName>DisplayName_Category_Power</DisplayName>
       <Name>Power</Name>
       <ItemIds>
-        <string>SolarPanel/SmallBlockSolarPanelT1</string>
-		<string>SolarPanel/SmallBlockSolarPanelT2</string>
-		<string>SolarPanel/SmallBlockSolarPanelT3</string>
-		<string>SolarPanel/SmallBlockSolarPanelT4</string>
-        <string>SolarPanel/LargeBlockSolarPanelT1</string>
-        <string>SolarPanel/LargeBlockSolarPanelT2</string>
-        <string>SolarPanel/LargeBlockSolarPanelT3</string>
-        <string>SolarPanel/LargeBlockSolarPanelT4</string>	
+        <string>HydrogenEngine/LargeHydrogenEngineT1</string>
+        <string>HydrogenEngine/SmallHydrogenEngineT1</string>
+        <string>HydrogenEngine/LargeHydrogenEngineT2</string>
+        <string>HydrogenEngine/SmallHydrogenEngineT2</string>
+        <string>HydrogenEngine/LargeHydrogenEngineT3</string>
+        <string>HydrogenEngine/SmallHydrogenEngineT3</string>
+        <string>HydrogenEngine/LargeHydrogenEngineT4</string>
+        <string>HydrogenEngine/SmallHydrogenEngineT4</string>
       </ItemIds>
     </Category>
+	
 	
   </CategoryClasses>
 </Definitions>	

@@ -1,0 +1,35 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+	          <string>OreDetector/LargeOreDetectorT1</string>
+			  <string>OreDetector/LargeOreDetectorT2</string>
+			  <string>OreDetector/LargeOreDetectorT3</string>
+			  <string>OreDetector/LargeOreDetectorT4</string>
+      </ItemIds>
+    </Category>	  
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>	  
+	         <string>OreDetector/SmallBlockOreDetectorT1</string>
+			 <string>OreDetector/SmallBlockOreDetectorT2</string>
+			 <string>OreDetector/SmallBlockOreDetectorT3</string>
+			 <string>OreDetector/SmallBlockOreDetectorT4</string>
+		</ItemIds>
+    </Category>
+	
+  </CategoryClasses>
+</Definitions>	
