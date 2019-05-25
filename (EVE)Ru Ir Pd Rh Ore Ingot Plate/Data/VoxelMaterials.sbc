@@ -2,6 +2,50 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<VoxelMaterials>
 
+    <!-- moon-->
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>MoonSoil</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>MoonSoil</MaterialTypeName>
+      <MinedOre>Regolith</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>1</DamageRatio>
+      <DiffuseXZ>Textures\Voxels\MoonSoil_01_ForAxisXZ_de.dds</DiffuseXZ>
+      <NormalXZ>Textures\Voxels\MoonSoil_01_ForAxisXZ_ns.dds</NormalXZ>
+      <DiffuseY>Textures\Voxels\MoonSoil_01_ForAxisXZ_de.dds</DiffuseY>
+      <NormalY>Textures\Voxels\MoonSoil_01_ForAxisXZ_ns.dds</NormalY>
+      <ColorMetalXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+	  <ExtXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+	  <ExtDetailScale>0.001</ExtDetailScale>
+
+      <SpecularPower>24</SpecularPower>
+      <SpecularShininess>0.364</SpecularShininess>
+
+      <FoliageColorTextureArray>
+
+        <Color>Textures\Voxels\MoonSoil_01_ForAxisXZ_cm.dds</Color>
+      </FoliageColorTextureArray>
+      <FoliageNormalTextureArray>
+        <Normal>Textures\Voxels\MoonSoil_01_ForAxisXZ_ng.dds</Normal>
+      </FoliageNormalTextureArray>
+      <FoliageDensity>2</FoliageDensity>
+      <FoliageScale>
+        <X>0.4</X>
+        <Y>0.4</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>0.6</FoliageRandomRescaleMult>
+      <FoliageType>1</FoliageType>
+      
+    </VoxelMaterial>
+	
 		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition"><!-- Aluminium-->	
 			<Id>
 				<TypeId>VoxelMaterialDefinition</TypeId>

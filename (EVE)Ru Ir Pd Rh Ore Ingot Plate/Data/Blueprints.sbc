@@ -1,7 +1,48 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
+
+
 	
+		<Blueprint>
+		  <Id>
+			<TypeId>BlueprintDefinition</TypeId>
+			<SubtypeId>StoneOreToIngotBasic</SubtypeId>
+		  </Id>
+		  <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+		  <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+		  <Prerequisites>
+			<Item Amount="500" TypeId="Ore" SubtypeId="Regolith" />
+		  </Prerequisites>
+		  <Results>
+			<Item Amount="7" TypeId="Ingot" SubtypeId="Stone" />
+			<Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+			<Item Amount="1.2" TypeId="Ingot" SubtypeId="Nickel" />
+			<Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+		  </Results>
+		  <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+		</Blueprint>
+	
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RegolithToIngot</SubtypeId>
+			</Id>
+			<DisplayName>Lunar Regolith</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10000" TypeId="Ore" SubtypeId="Regolith" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="270" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="540" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="46" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="70" TypeId="Ingot" SubtypeId="Silicon" />	
+				<Item Amount="150" TypeId="Ingot" SubtypeId="Helium" />
+			</Results>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+		</Blueprint>
+		
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>

@@ -24,12 +24,12 @@
         <TypeId>RespawnShipDefinition</TypeId>
         <SubtypeId>RespawnMoonPod</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
-      <Icon>Textures\GUI\Icons\RespawnShips\RespawnPlanetPod.png</Icon>
+      <DisplayName>月球车</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnMoonPod.png</Icon>
       <CooldownSeconds>900</CooldownSeconds>
-      <Prefab>RespawnPlanetPod</Prefab>
+      <Prefab>RespawnMoonPod</Prefab>
       
-      <PlanetDeployAltitude>8</PlanetDeployAltitude>
+      <PlanetDeployAltitude>4</PlanetDeployAltitude>
       <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
       <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
     </Ship>

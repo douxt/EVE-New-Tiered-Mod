@@ -5,6 +5,44 @@
 
 		<PhysicalItem>
 			<Id>
+				<TypeId>Ingot</TypeId>
+				<SubtypeId>Helium</SubtypeId>
+			</Id>
+			<DisplayName>氦3-He3</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\helium_bottle.dds</Icon>
+			<Size>
+				<X>0.072</X>
+				<Y>0.072</Y>
+				<Z>0.072</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>0.052</Volume>
+			<Model>Models\Ingots\helium_tank_ingot.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<IconSymbol>氦3-He3</IconSymbol>
+		</PhysicalItem>
+	
+		<PhysicalItem>
+			<Id>
+				<TypeId>Ore</TypeId>
+				<SubtypeId>Regolith</SubtypeId>
+			</Id>
+			<DisplayName>月壤-yr-</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+			<Size>
+				<X>0.07</X>
+				<Y>0.07</Y>
+				<Z>0.07</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>0.37</Volume>
+			<Model>Models\Components\Sphere.mwm</Model>
+			<PhysicalMaterial>Stone</PhysicalMaterial>
+			<IconSymbol>月壤</IconSymbol>
+		</PhysicalItem>
+	
+		<PhysicalItem>
+			<Id>
 				<TypeId>Ore</TypeId>
 				<SubtypeId>Ruthenium</SubtypeId>
 			</Id>
@@ -19,7 +57,7 @@
 			<Volume>0.37</Volume>
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
-			<IconSymbol>Ru</IconSymbol>
+			<IconSymbol>钌-Ru</IconSymbol>
 		</PhysicalItem>
 		
 		<PhysicalItem>
@@ -38,7 +76,7 @@
 			<Volume>0.112</Volume>
 			<Model>Models\Ingots\generic_ingot.mwm</Model>
 			 <PhysicalMaterial>Metal</PhysicalMaterial>
-			<IconSymbol>Ru</IconSymbol>
+			<IconSymbol>钌-Ru</IconSymbol>
 		</PhysicalItem>
 	
 		<PhysicalItem>
@@ -57,7 +95,7 @@
 			<Volume>0.37</Volume>
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
-			<IconSymbol>Ir</IconSymbol>
+			<IconSymbol>铱-Ir</IconSymbol>
 		</PhysicalItem>
 		
 		<PhysicalItem>
@@ -76,7 +114,7 @@
 			<Volume>0.112</Volume>
 			<Model>Models\Ingots\generic_ingot.mwm</Model>
 			 <PhysicalMaterial>Metal</PhysicalMaterial>
-			<IconSymbol>Ir</IconSymbol>
+			<IconSymbol>铱-Ir</IconSymbol>
 		</PhysicalItem>	
 	
 		<PhysicalItem>
@@ -95,7 +133,7 @@
 			<Volume>0.37</Volume>
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
-			<IconSymbol>Pd</IconSymbol>
+			<IconSymbol>钯-Pd</IconSymbol>
 		</PhysicalItem>
 		
 		<PhysicalItem>
@@ -114,7 +152,7 @@
 			<Volume>0.112</Volume>
 			<Model>Models\Ingots\generic_ingot.mwm</Model>
 			 <PhysicalMaterial>Metal</PhysicalMaterial>
-			<IconSymbol>Pd</IconSymbol>
+			<IconSymbol>钯-Pd</IconSymbol>
 		</PhysicalItem>	
 	
 		<PhysicalItem>
@@ -133,7 +171,7 @@
 			<Volume>0.37</Volume>
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
-			<IconSymbol>Rh</IconSymbol>
+			<IconSymbol>铑-Rh</IconSymbol>
 		</PhysicalItem>
 		
 		<PhysicalItem>
@@ -152,7 +190,7 @@
 			<Volume>0.112</Volume>
 			<Model>Models\Ingots\generic_ingot.mwm</Model>
 			 <PhysicalMaterial>Metal</PhysicalMaterial>
-			<IconSymbol>Rh</IconSymbol>
+			<IconSymbol>铑-Rh</IconSymbol>
 		</PhysicalItem>		
 	</PhysicalItems>
 </Definitions>

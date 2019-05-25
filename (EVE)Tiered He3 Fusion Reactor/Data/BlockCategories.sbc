@@ -1,0 +1,34 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Power</DisplayName>
+      <Name>Power</Name>
+      <ItemIds>
+        <string>Reactor/LargeHe3FusionReactorT1</string>
+        <string>Reactor/SmallHe3FusionReactorT1</string>
+        <string>Reactor/SmallHe3FusionReactorSmallT1</string>
+        <string>Reactor/LargeHe3FusionReactorSmallT1</string>
+		
+        <string>Reactor/LargeHe3FusionReactorT2</string>
+        <string>Reactor/SmallHe3FusionReactorT2</string>
+        <string>Reactor/SmallHe3FusionReactorSmallT2</string>
+        <string>Reactor/LargeHe3FusionReactorSmallT2</string>
+		
+        <string>Reactor/LargeHe3FusionReactorT3</string>
+        <string>Reactor/SmallHe3FusionReactorT3</string>
+        <string>Reactor/SmallHe3FusionReactorSmallT3</string>
+        <string>Reactor/LargeHe3FusionReactorSmallT3</string>
+		
+        <string>Reactor/LargeHe3FusionReactorT4</string>
+        <string>Reactor/SmallHe3FusionReactorT4</string>
+        <string>Reactor/SmallHe3FusionReactorSmallT4</string>
+        <string>Reactor/LargeHe3FusionReactorSmallT4</string>
+      </ItemIds>
+    </Category>
+</CategoryClasses>
+</Definitions>
